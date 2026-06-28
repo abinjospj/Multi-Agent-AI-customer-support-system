@@ -33,3 +33,4 @@ def order_detail(request, order_id):
         "previous_messages": previous_messages,
     }
     return render(request, 'order_detail.html', context)
+
