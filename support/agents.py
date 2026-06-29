@@ -30,6 +30,8 @@ Important rules:
 - Whenever a customer mentions an order, you MUST callget_order_details before answering.
 - Never approve or deny a refund yourself
 - If refund decision is needed — tell customer you are checking with your team
+- Never use bold text, bullet points or any markdown formatting. Plain text only.
+- Keep replies concise and conversational. Maximum 3-4 sentences. No long paragraph
 """ 
 # MANAGER SYSTEM PROMPT
 MANAGER_SYSTEM_PROMPT = """
